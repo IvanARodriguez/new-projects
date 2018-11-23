@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Muli|Quicksand|Raleway');
+*{box-sizing: border-box;}
+/*colors used:
+#005D7F
+#4CCFFF
+#FF877D
+font-family: 'Cardo', serif;
+*/
+
+
+body{
+    color: #ffffff;
+    font-size: 90%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: 'Muli', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+    max-width: 1240px;
+}
+/*----------------HEADER----------------------*/
+header{
+    background-image: linear-gradient(#191919, #000);
+    width: 100vw;
+    height: 70px;
+    padding: 0 3rem;
+    margin: 0;
+    border-bottom: 2px solid #e84118;
+}
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-nav a, li, ul{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    text-transform: uppercase;
+}
+.top-nav li{
+    padding: 1rem;
+}
+.logo h1{
+    float: left;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #005D7F;
+}
+/*----------------hero-------------------*/
+#cover{
+    width: 100vw;
+    height: 50vh;
+    max-height: 550px;
+    margin: auto;
+    background-image: url(images/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.hero-img{
+    background-image: linear-gradient( #005D7F, rgba(0, 79, 108, 0.838));
+    height: 50vh;
+    float: left;
+    max-height: 550px;
+    width: 100%;
+    margin: auto;
+    padding: 30px 5em;
+}
+.persuade-slogan h1{
+    font-size: 3em;
+    margin-bottom: 3rem;
+    width: 100%;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.persuade-slogan p{
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    width: 80%;
+    transform: translate(35%);
+    font-size: 2em;
+    color: #FF877D;
+    text-align: left;
+    float: none;
+}
+.why{color: rgb(207, 156, 14)}
+.bracket{color: #fff;}
+.cleaned{color: rgb(51, 200, 254); margin-left: 1.5rem;}
+
+
+.credits{
+    float: none;
+    display: inline-block;
+    padding: 0.3em 1.2em;
+    margin-top: 3em;
+    border-radius: 5px;
+    border: 0px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color:#4eb5f1;
+    text-align: center;
+    transition: all 0.2s;
+}
+.credits:hover {background-color:#4095c6;}
+
+.search-box{
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    float: left;
+    background: #2f3640;
+    margin: 15px;
+    height: 40px;
+    border-radius: 40px;
+}
+.search-box:hover > .search-txt{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: white;
+}
+.search-btn{
+    color: #e84118;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+.search-txt{
+    padding-left: 10px;
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width: 0px;
+}
+
+/*--------Lenguage---------*/
+.experience{
+    color: #000;
+    padding-top: 30px; 
+}
+.container td{
+    border-bottom: 3px solid rgb(0, 103, 167);
+    border-right: 3px solid rgb(0, 103, 167);
+    border-radius: 3%;
+    width: 10%;
+    height: 300px;
+    background: #fff;
+    color: #005D7F;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.7em;
+}
+.container td{
+    transform: translate(0%, -5%);
+    background: white;
+    color: #005D7F
+}
+.experience h1, p{
+    text-align: left;
+    margin: 0;
+    padding: 10px;
+}
+.experience p{
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(57, 57, 57);
+}
+.container tr img{
+    border-radius: 50%;
+    border: 4px solid rgb(179, 179, 179);
+    padding: 5px;
+    margin: auto;
+    display: block;
+    height: 150px;
+    color: #005D7F
+}
+.container td{
+    margin-left: 10px;
+}
+.lng-box{
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+
+
+/*---RESPONSIVE-----*/
+
+@media only screen and (max-height: 1000px){
+    .container{
+        padding: 0 5px;
+        width: 100vw;
+    }
+    #cover{
+        height: 100vh;
+    }
+    .hero-img{
+        height: 100vh;
+    }
+    .experience{
+        width: 100vw;
+    }
+}

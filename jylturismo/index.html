@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style/style.css">
+    <title>JyL Turismo y Eventos</title>
+</head>
+<body>
+    <!----------------El header y navegador comienza aqui---------------->
+    <header id="header">
+        <div class="container">
+            <a href="#"><img src="style/logo.png" alt="JyL Logo"></a>
+        </div>
+    </header>
+    <!--------------- la imagen principal comienza aqui--------------->
+    <div class="hero-img">
+        <div class="container">
+            <div class="slogan">
+                <h1>Vacaciona al maximo</h1>
+                <h2>Increiblemente económico y facil</h2>
+                <div class="hero-btn">
+                    <form>
+                            <input class="date" type="date" id="dateini" required>
+                            <input class="date" type="date" id="datefin" required>
+                            <input class="date" type="number" id="guests" placeholder="Guests" required>
+                            <select class="date" name="cars">
+                                    <option value="volvo">Single</option>
+                                    <option value="saab">Standar</option>
+                                    <option value="fiat" selected>Premium</option>
+                                    <option value="audi">Presidencial</option>
+                                  </select>
+                            <button class="cal-btn" type="submit" onclick="calcular()">Calcular</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

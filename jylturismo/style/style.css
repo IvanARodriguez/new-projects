@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+SC|Slabo+27px');
+*{box-sizing: border-box;}
+
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.269);
+}
+.container{
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+}
+.container img{
+    height: 60px;
+    margin: 20px 0px;
+    float: left;
+}
+/*---------heroe image------------*/
+
+.hero-img{
+    background-image: url(images/heroe.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.slogan {
+    width: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+.slogan h1{
+    text-shadow: 5px 5px 10px rgb(69, 69, 69);
+    color: white;
+    border: 2px solid white;
+    font-size: 4em;
+    padding: 30px 0;
+}
+.slogan h2{
+    font-size: 2.5rem;
+    color: rgb(255, 255, 255);
+    padding: 30px 0;
+    background-color: rgba(137, 43, 226, 0.557);
+}
+.hero-btn{
+    width: 100%;
+    margin: 3rem 0;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.756);
+    border-radius: 0 0 20px 20px;
+}
+input::-webkit-input-placeholder {
+    color: rgb(85, 85, 85) !important;
+    }
+form .date{
+    display: block;
+    font-family: 'Slabo 27px', serif;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(137, 43, 226);
+    font-size: 16px;
+    margin: 20px auto;
+    width: 20em;
+    height: 2rem;
+}
+form .cal-btn{
+    height: 2rem;
+    font-size: 15px;
+    background-color: rgb(137, 43, 226);
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+.sign-in{
+    width: 10rem;
+    margin: 20px;
+    height: 2.3rem;
+    background-color: #009FFF;
+    border: none;
+    border-radius: 5px;
+}
+.sign-in a{
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+}
+.sign-in:hover{
+    background-color: rgb(0, 105, 171);
+}
+.registrate{ color: rgb(0, 0, 0);}
+.registrate p{font-size: 1.6em;}
+.registrate p a{ color: rgb(0, 157, 255);}
