@@ -1,0 +1,24 @@
+body{
+    background: black;
+    text-align: center;
+    color: rgb(213, 240, 255);
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 30px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 5px;
+    background: rgb(85, 85, 85);
+    font-size: 17px;
+    border: 2px solid greenyellow;
+    color: white;
+}
+button:hover{
+    background: grey;
+    cursor: pointer;
+}
+.winner{
+    color: green;
+}

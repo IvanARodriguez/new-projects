@@ -3,7 +3,7 @@ body{
     color: rgb(255, 255, 255);
 }
 .navbar{
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.74);
+    box-shadow: 2px 2px 3px #88B5FF;
 }
 .navbar-brand{
     height: 40px;
@@ -11,10 +11,10 @@ body{
     margin: 0 10px 0 0;
 }
 .hero{
-    border: 2px solid rgb(0, 0, 0);
+    top: 50%;
     height: 40px;
-    background: #f8f9fadc;
-    border-radius: 10px;
+    background: #ffffffdc;
+    border-radius: 5px;
 }
 .logo{
     height: 100px;
@@ -28,25 +28,25 @@ body{
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 2px solid rgb(134, 134, 134) ;
+    border-bottom: 2px solid rgb(255, 255, 255) ;
 }
 .btn-secondary {
     margin-left: 25px;
 }
 .bg-hero{
-    background: url(images/background-2.jpg);
+    background: url(images/hero-img.jpg);
     height: 100vh;
-    background-position: 50% 100%;
+    background-position: 90% 3%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .cover-color{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.2);
     height: 100vh;
 }
 #content{
     text-align: center;
-    padding-top:    25%;
+    padding-top:    15%;
     text-shadow:    0px 4px 3px rgba(0, 0, 0, 0.4),
                     0px 8px 13px rgba(0, 0, 0, 0.1),
                     0px 18px 23px rgba(0, 0, 0, 0.1);
@@ -55,26 +55,68 @@ hr {
     background-color: #ffffff;
     width: 400px;
     border-top: 1px solid #f8f8f8;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2)
+    border-bottom: 1px solid rgba(5, 5, 5, 0.2)
 }
 h1{
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 .interest {
     margin-top: 10px;
-    color: black;
+    color: rgba(0, 0, 0, 0.555);
 }
 .card-img{
-    height: 25rem;;
-    background: url(images/gps.jpg);
+    height: 15rem;;
+    background: rgb(29, 49, 87);
+    color: white;
+    border: none;
+    margin: 0;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.card-bottom{
+    border-bottom: 3px solid #88B5FF;
 }
 .middle{
     text-transform: uppercase;
     padding: 10px;
     margin: 0;
+}
+.amenities{
+    height: 200px;
+}
+.card-title{
+    color: black;
+    font-weight: 700;
+}
+.btn-outline-info{
+    color: #88B5FF;
+    border-color: #88B5FF;
+}
+.btn-outline-info:hover{
+    background: #88B5FF;
+    border-color: #88B5FF;
+}
+.box{
+    margin-bottom: 15px;
+}
+.about, .jumbotron{
+    background: rgb(255, 255, 255);
+    padding: 1rem 0 0 0;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.card-about img{
+    width: 230px;
+    margin: 20px;
+}
+.card-about{
+    text-align: center;
+    border: 0px;
+    padding: 5px;
+    color: #000000;
+    margin-bottom: 20px;
 }
