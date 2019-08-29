@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Asap|Merriweather');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Asap', sans-serif;
+    color: black;
+    text-align: center;
+}
+header{
+    height: 100px;
+    background: white;
+}
+a {
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.logo img{
+    height: 80px;
+    padding: 10px;
+    margin: 0 auto;
+    float: left;
+    background-color: white;
+}
+.topnav {
+    background: white;
+    color: black;
+    font-weight: 800;
+    height: 100%;
+    margin: 0;
+    padding: 25px 10px;
+    overflow: hidden;
+    float: right;
+  }
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 0px 16px 0 0;
+    text-decoration: none;
+    font-size: 20px;
+}
+.topnav a:hover {
+    color: rgb(136, 151, 182);
+}
+.divider{
+    font-size: 1rem;
+}
+.submenu{
+    background-color:rgb(76, 127, 175);
+    text-decoration: none;
+    padding: 0px 5px;
+    color: rgb(0, 0, 0);
+}
+.submenu a:hover{
+    background-color: #364b86;
+    margin: 0;
+    padding: 0 5px;
+}
+.newmember{
+    background-color: rgb(76, 127, 175);
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+/*-----------------------loging style----------------*/
+/* Full-width input fields */
+form {
+    border: 3px solid #f1f1f1;
+  }
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+  }
+  
+  img.avatar {
+    margin: 0 40%;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  span.psw a{
+      color: blue;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    text-align: left;
+    color: black;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid rgb(102, 102, 102);
+    max-width: 40%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 25px;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    color: rgb(255, 0, 0);
+    border-radius: 50%;
+    background: rgb(155, 155, 155);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 700px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+    .modal-content {
+        min-width: 100%;
+    }
+  }
