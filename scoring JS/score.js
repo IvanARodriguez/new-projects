@@ -9,7 +9,7 @@ var p1Score = 0;
 var p2Score = 0;
 var gameOver = false;
 var winningScore = 5;
-
+//--> CREATE A SCORE FUNCTION EVERYTIME CLICK ON PLAYER 1
 p1Button.addEventListener("click", function(){
     if(!gameOver) {
         p1Score++;
@@ -20,7 +20,7 @@ p1Button.addEventListener("click", function(){
         p1Display.textContent = p1Score;
     }
 });
-
+//--> CREATE A SCORE FUNCTION EVERYTIME CLICK ON PLAYER 2 
 p2Button.addEventListener("click", function(){
     if(!gameOver){
         p2Score++;
@@ -31,7 +31,7 @@ p2Button.addEventListener("click", function(){
     p2Display.textContent = p2Score;
     }
 });
-
+//--> CREATE A RESET FUNCTION WHEN CLICK ON RESET
 resetButton.addEventListener("click", function(){
     p1Score = 0;
     p2Score = 0;
@@ -41,7 +41,7 @@ resetButton.addEventListener("click", function(){
     p2Display.classList.remove("winner");
     gameOver = false;
 })
-
+//--> CHANGE THE DISPLAY VALUE EVERYTIME SOMEONE SCORES.
 numInput.addEventListener("change", function(){
     winningScoreDisplay.textContent = this.value;
     winningScore = Number(this.value);
